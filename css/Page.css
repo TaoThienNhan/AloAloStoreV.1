@@ -1,0 +1,264 @@
+
+article{
+    width: 900px;
+    height: 300px;
+    margin: 40px;
+    position: relative;
+}
+
+article >.box_sp > .img{
+    width: 400px;
+    height: 300px;
+    margin-right: 30px;
+    float: left;
+}
+
+article >.box_sp > .img img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+
+
+article >.box_sp > .name{
+    color: #3075dc;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+article >.box_sp > .status i{
+    color: #3075dc;
+    margin-bottom: 10px;
+}
+
+article > .box_sp > .type i{
+    color: #3075dc; 
+    margin-bottom: 10px;   
+}
+
+article > .box_sp > .price{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+article > .box_sp > .sale{
+    width: 80px;
+    height: 30px;
+    float: left;
+    font-weight: 600;
+    color: rgb(160, 156, 156);
+    text-decoration: line-through;
+} 
+
+article > .box_sp > .percent{
+    float: left;
+    width: 40px;
+    height: 20px;
+    border: 1px solid rgb(185, 173, 173);
+    text-align: center;
+    color: white;
+    background-color: #3075dc;
+    border-radius: 5px;
+}
+
+article > .box_sp > form{
+    width: 600px;
+    height: 110px;
+    position: absolute;
+    top: 200px;
+    left: 420px;
+}
+
+article > .box_sp > form > .name{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+article > .box_sp > form > button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    background-color: #3075dc;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 10px;
+}
+
+article > .box_sp > form > button:hover{
+    background-color: white;
+    color: black;
+}
+
+article > .box_sp > form > .off-sale{
+    text-decoration: line-through;
+    color: tomato;
+}
+
+
+.GT_Sanpham{
+    margin-left: 40px;
+    width: 1200px;
+    height: auto;
+}
+
+.GT_Sanpham > .doc{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.GT_Sanpham > .ngang{
+    width: 80%;
+    height: auto;
+    float: right;
+    text-align: justify;
+}
+
+.form_contact{
+    width: 1280px;
+    height: 510px;
+    position: relative;
+}
+
+.form_contact > .lienhe{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    right: 600px;
+}
+
+.form_contact > h2{
+    text-align: center;
+    color: #3075dc;
+}
+
+.form_contact > form{
+    width: 500px;
+    height: 600px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+.form_contact > .map{
+    position: absolute;
+    top: 110px;
+    left: 650px;
+}
+
+.form_contact > form > label{
+    color: #3075dc;
+    margin-top: 10px;
+}
+
+.form_contact > form > label > input{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: 0;
+}
+
+.form_contact > form > label > textarea{
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    outline: 0;
+}
+
+.form_contact > form > button {
+    width: 300px;
+    height: 30px;
+    background-color: #3075dc;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.form_feedback{
+    width: 1280px;
+    height: 700px;
+    padding-top: 70px;
+    padding-left: 450px;
+}
+
+.form_feedback > h2{
+    color: #3075dc;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    text-decoration:underline;
+}
+
+.form_feedback > form > label >.text{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    outline: 0;
+}
+
+.form_feedback > form > b{
+    width: 200px;
+    height: auto;
+    color: #3075dc;
+    
+}
+
+.form_feedback > form > select  {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    outline: 0;
+}
+
+.form_feedback > form > textarea{
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    outline: 0;
+}
+
+.form_feedback > form > button {
+    width: 450px;
+    height: 30px;
+    background-color: #3075dc;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.page_gioithieu{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 1100px;
+    height: auto;
+    text-align: justify;
+}
+
+.fb-comments{
+    display: none;
+}
+
+.comment{
+    display: none;
+}
+
+hr{
+    display: none;
+}
+
+.thanh_toan{
+    display: none;
+}

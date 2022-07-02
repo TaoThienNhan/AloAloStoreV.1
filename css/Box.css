@@ -1,0 +1,290 @@
+.SP_Lienquan{
+    width: 1200px;
+    height: 310px;
+    margin: 30px;
+    margin-top: 100px;
+    float: left;
+}
+
+.SP_Lienquan h2{
+    font-size: 20px;
+}
+
+hr{
+    width: 1150px;
+}
+
+.Big_box{
+    width: 1100px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.Big_box > .small_box{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.Big_box > .small_box > .img img{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.Big_box > .small_box > .name{
+    width: auto;
+    color: #3075dc;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Big_box > .small_box > .price{
+    width: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.Big_box > .small_box > .sale{
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    color: rgb(185, 173, 173);;
+    text-decoration: line-through;
+}
+
+.Big_box > .small_box > .percent{
+    float: left;
+    width: 40px;
+    height: 20px;
+    border: 1px solid rgb(185, 173, 173);
+    text-align: center;
+    color: white;
+    background-color: #3075dc;
+    border-radius: 5px;
+}
+
+.fb-comments{
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.comment{
+    float: left;
+    margin-left: 100px;
+}
+
+.l_box{
+    width: 1220px;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.l_box > .title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.l_box > .d_title{
+    color: rgb(87, 86, 86);
+}
+
+.s_box{
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 45px;
+    font-size: 15px;
+    
+}
+
+.s_box:hover{
+    margin-top: 20px;
+}
+
+.s_box > .img img{
+    width: 220px;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+
+.s_box > .name{
+    color: #3075dc;
+    text-align: center;
+}
+
+.s_box > .name a{
+    color: #3075dc;
+    text-decoration: none;
+}
+
+.s_box > .name a:hover{
+    text-decoration: underline;
+}
+
+.s_box > .price{
+    font-weight: bold;
+    color: black;
+    width: 250px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.s_box > .sale{
+    width: 250px;
+    color: rgb(185, 173, 173);
+    text-decoration: line-through;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+}
+
+.s_box > a  > button{
+    width: 240px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    color: white;
+    background-color:  #3075dc;
+    border: 1px solid #3075dc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.s_box > a > button:hover{
+    color: #3075dc;
+    background-color: white;
+}
+
+.s_box > .add-cart{
+    width: 240px;
+    height: 30px;
+    margin-left: 4px;
+    background-color: white;
+    border: 1px solid rgb(185, 173, 173);
+    border-radius: 5px;
+}
+
+.s_box > .add-cart:hover{
+    color: #3075dc;
+}
+
+.fast-sale{
+    width: 1280px;
+    height: 630px;
+    position: relative;
+}
+
+.fast-sale > .title{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fast-sale > .title > i{
+    color: red;
+    margin-right: 5px;
+    font-size: large;
+}
+
+
+.fast-sale > .l_box{
+    margin-top: 10px;
+    width: 1200px;
+    height: 350px;
+}
+
+#fast-sale-1{
+    position: absolute;
+    top: 20px;
+}
+
+#fast-sale-2{
+    position: absolute;
+    top: 300px;
+}
+
+.fast-sale > .l_box > .s_box{
+    background: none;
+}
+
+
+.fast-sale > .l_box > .s_box > .name a{
+    font-size: 12px;
+    color: white;
+}
+
+.fast-sale > .l_box > .s_box > .name a:hover{
+    text-decoration:underline ;
+}
+
+.fast-sale > .l_box > .s_box > .price{
+    color: white;
+    text-shadow: 0px 0px 5px white;
+}
+
+.fast-sale > .l_box > .s_box > .buy{
+    display: none;
+}
+
+.fast-sale > .l_box > .s_box:hover>.buy{
+    margin-top: 5px;
+    display: block;
+    border: none;
+}
+
+.fast-sale > .l_box > .s_box > .add-cart{
+    display: none;
+}
+
+
+.fast-sale > .l_box > .s_box:hover>.add-cart{
+    display: block;
+}
+
+.hot_key{
+    width: 1263px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.hot_key > a > .box{
+    width: 176px;
+    height: 80px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.hot_key > .title{
+    width: 200px;
+    height: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
