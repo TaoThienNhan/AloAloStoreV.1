@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a2034f049e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/Loading.js"></script>
+    <link rel="icon" href="img/AloAlo_Icon_Browser.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Box.css">
+    <title>Trang Chủ - Alo Alo</title>
+    <style>
+        .fast-sale{
+            background: url(img/steam_banner.jpg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="header_top">
+            <div class="left">
+                <div class="item">
+                    <i class="fas fa-home"></i><a href="index.html">Trang Chủ</a>
+                </div>
+            </div>
+            <marquee behavior="" direction=""><i class="fab fa-hotjar"></i><a href=""><i>Alo Alo, hiện đang có sự kiện giảm giá cực sốc, bấm vào để xem chi tiết!</i></a></marquee>
+            <div class="right">
+                <div class="item">
+                    <i class="fas fa-address-book"></i><a href="introduce.html">Giới Thiệu</a>
+                </div>
+                <div class="item">
+                    <i class="fas fa-headset"></i><a href="contact.html">Liên Hệ</a>
+                </div>
+                <div class="item">
+                    <i class="fas fa-envelope-open-text"></i><a href="Feedback.html">Góp Ý</a>
+                </div>
+                <div class="item">
+                    <i class="fas fa-comments"></i><a href="support.html">Hỏi Đáp</a>
+                </div>
+            </div>
+        </nav>
+        <section class="header_center">
+            <div class="img">
+                <a href="index.html"><img src="img/AloAlo_Logo.png" alt="AloAlo_Logo"></a>
+            </div>
+            <div class="find_form">
+                <form>
+                    <input class="find_box" type="text" placeholder="Nhập sản phẩm cần tìm kiếm ...">
+                    <input class="find_button" value="🔎" type="submit">  
+                </form>
+            </div> 
+            <div class="login_register">
+                <div class="icon"><i class="fas fa-user"></i></div>
+                <div class="login">
+                    <a href="Login.html">Đăng Nhập</a>
+                </div>
+                <div class="register">
+                    <a href="Register.html">Đăng Ký</a> 
+                </div>
+            </div> 
+            <div class="cart">
+                <div class="icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="title">
+                    <a href="#">Giỏ Hàng</a>
+                </div>   
+            </div>
+        </section>
+        <section class="header_bottom">
+            <ul>
+                <li><a href="#"><i class="fas fa-eye"></i> Sản Phẩm Bạn Vừa Xem</a></li>
+                <li><a href="#"><i class="fas fa-fire"></i> Sản Phẩm Mua Nhiều</a></li>
+                <li><a href="#"><i class="fas fa-percent"></i> Sản Phẩm Khuyễn Mãi</a></li>
+                <li><a href="#"><i class="fas fa-eye"></i></i> Đại Lý Giao Dịch</a></li>
+                <li><a href="#"><i class="fas fa-credit-card"></i> Hình Thức Thanh Toán</a></li>
+            </ul>
+        </section>
+    </header>
+    <aside>
+        <div class="menu">
+            <ul>
+                <li><i class="fas fa-gamepad"></i><a href="List_Entertainment.html">Giải Trí</a></li>
+                <li><i class="fas fa-briefcase"></i><a href="List_Work.html">Làm Việc</a></li>
+                <li><i class="fas fa-graduation-cap"></i><a href="List_Study.html">Học Tập</a></li>
+                <li><i class="fab fa-steam"></i><a href="List_Game_Steam.html">Game Steam</a></li>
+                <li><i class="fab fa-youtube"></i><a href="Page_Youtube_Premium.html">Youtube Premium</a></li>
+                <li><i class="fab fa-discord"></i><a href="Page_Discord_Nitro.html">Discord</a></li>
+                <li><i class="fab fa-spotify"></i><a href="Page_Spotify_Premium.html">Spotify</a></li>
+                <li><i class="fas fa-database"></i><a href="List_Data_Mobile.html">Gói Data Mobile</a></li>
+                <li><i class="fab fa-google-play"></i><a href="Loading.html">Google Play, Itunes</a></li>
+                <li><i class="fab fa-xbox"></i><a href="Loading.html">Xbox Gift Card</a></li>
+            </ul>
+        </div>
+    </aside>
+    <div>
+        <a href="#"><img class="img_bg_top" src="img/top_game_img.jpg" alt="top_game_img"></a>
+    </div>
+    <article class="l_box">
+        <div class="title">Sản phẩm nổi bật</div>
+        <div class="d_title">Danh sách những sản phẩm theo xu hướng mà có thể bạn sẽ thích.</div>
+        <div class="s_box">
+            <div class="img"><img src="img/NETFLIX_box.png" alt="Netflix"></div>
+            <div class="name"><a href="Page_Netflix_Premium.html">Tài khoản Netflix Premium for 1 User</a></div>
+            <div class="price">79.000đ</div>
+            <div class="sale">260.000đ</div>
+            <a class="buy" href="Page_Netflix_Premium.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/spotify_box.png" alt="spotify_box"></div>
+            <div class="name"><a href="Page_Spotify_Premium.html">Gói gia hạn Spotify Premium 01 năm</a></div>
+            <div class="price">299.000đ</div>
+            <div class="sale">590.000đ</div>
+            <a class="buy" href="Page_Spotify_Premium.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/discord_box.png" alt="discord_box"></div>
+            <div class="name"><a href="Page_Discord_Nitro.html">Discord Nitro 3 tháng</a></div>
+            <div class="price">149.000đ</div>
+            <div class="sale">690.000đ</div>
+            <a class="buy" href="Page_Discord_Nitro.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Grammarly_box.png" alt="Grammarly_box"></div>
+            <div class="name"><a href="Page_Gramarly.html">Tài khoản Grammarly Premium 1 năm</a></div>
+            <div class="price">490.000đ</div>
+            <div class="sale">1.400.000đ</div>
+            <a class="buy" href="Page_Gramarly.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="l_box">
+        <div class="s_box" >
+            <div class="img"><img src="img/zoom_box.png" alt="zoom_box"></div>
+            <div class="name"><a href="Page_Zoom_Pro.html">Nâng cấp Tài khoản Zoom Pro</a></div>
+            <div class="price">190.000đ</div>
+            <div class="sale">400.000đ</div>
+            <a class="buy" href="Page_Zoom_Pro.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Prime_box.png" alt="Prime_box"></div>
+            <div class="name"><a href="Page_Prime_Gaming.html">Tài khoản Amazon Prime Gaming</a></div>
+            <div class="price">29.000đ</div>
+            <div class="sale">550.000đ</div>
+            <a class="buy" href="Page_Prime_Gaming.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/pubgc_box.png" alt="pubgc_box"></div>
+            <div class="name"><a href="Page_PUBG_Coin.html">PUBG 1000 G-COIN</a></div>
+            <div class="price">225.000đ</div>
+            <div class="sale">240.000đ</div>
+            <a class="buy" href="Page_PUBG_Coin.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/adobe_box.png" alt="Adobe"></div>
+            <div class="name"><a href="Page_Adobe_Photography.html">Tài khoản Adobe Photography</a></div>
+            <div class="price">169.000đ</div>
+            <div class="sale">120.000.000đ</div>
+            <a class="buy" href="Page_Adobe_Photography.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="fast-sale">
+        <div class="title"><i class="fas fa-chart-line"></i>#Sản phẩm bán chạy nhất</div>
+        <div class="l_box" id="fast-sale-1">
+            <div class="s_box">
+                <div class="img"><img src="img/NETFLIX_box.png" alt="NETFLIX_box"></div>
+                <div class="name"><a href="Page_Netflix_Premium.html">Tài khoản Netflix Premium for 1 User</a></div>
+                <div class="price">79.000đ</div>
+                <div class="sale">260.000đ</div>
+                <a class="buy" href="Page_Netflix_Premium.html"><button>Mua Ngay</button></a>
+                <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+            </div>
+            <div class="s_box">
+                <div class="img"><img src="img/STEAM_100_TWD.png" alt="STEAM_100_TWD"></div>
+                <div class="name"><a href="Loading.html">Steam Wallet Code 100 TWD</a></div>
+                <div class="price">93.000đ</div>
+                <div class="sale">0đ</div>
+                <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+                <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+            </div>
+            <div class="s_box">
+                <div class="img"><img src="img/Random_Code_Steam.png" alt="Random_Code_Steam"></div>
+                <div class="name"><a href="Loading.html">Random Code Steam</a></div>
+                <div class="price">10.000đ</div>
+                <div class="sale">20.000đ</div>
+                <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+                <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+            </div>
+            <div class="s_box">
+                <div class="img"><img src="img/STEAM_120_HKD.png" alt="STEAM 120 HKD (40)"></div>
+                <div class="name"><a href="Loading.html">Steam Wallet Code 40 HKD</a></div>
+                <div class="price">128.000đ</div>
+                <div class="sale">0đ</div>
+                <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+                <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+            </div>
+        </div>
+        <div class="l_box" id="fast-sale-2">
+            <div class="s_box">
+                <div class="img"><img src="img/STEAM_100_ARS.png" alt="STEAM_100_ARS"></div>
+                <div class="name"><a href="Loading.html">Steam Wallet Code 100 ARS</a></div>
+                <div class="price">32.000đ</div>
+                <div class="sale">0đ</div>
+                <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+                <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+            </div>
+            <div class="s_box">
+                <div class="img"><img src="img/Spotify_4thang.png" alt="Spotify_4thang"></div>
+                <div class="name"><a href="Loading.html">Tài khoản nghe nhạc Spotify Premium</a></div>
+                <div class="price">69.000đ</div>
+                <div class="sale">236.000đ</div>
+                <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+                <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+            </div>
+            <div class="s_box">
+                <div class="img"><img src="img/STEAM_80_HKD.png" alt="STEAM_80_HKD"></div>
+                <div class="name"><a href="Loading.html">Steam Wallet Code 80 HKD</a></div>
+                <div class="price">256.000đ</div>
+                <div class="sale">0đ</div>
+                <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+                <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+            </div>
+            <div class="s_box">
+                <div class="img"><img src="img/YOUTUBE_NO_ADS_1_NAM.png" alt="YOUTUBE_NO_ADS_1_NAM"></div>
+                <div class="name"><a href="Loading.html">Gia hạn Youtube Premium</a></div>
+                <div class="price">79.000đ</div>
+                <div class="sale">260.000.000đ</div>
+                <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+                <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+            </div>
+        </div>
+    </article>
+    <article class="hot_key">
+        <div class="title">Giá phù hợp</div>
+        <a href="#"><button class="box" style="background-color: white; color: black;">20.000đ</button></a>
+        <a href="#"><button class="box" style="background-color: white; color: black;">50.000đ</button></a>
+        <a href="#"><button class="box" style="background-color: white; color: black;">100.000đ</button></a>
+        <a href="#"><button class="box" style="background-color: white; color: black;">200.000đ</button></a>
+        <a href="#"><button class="box" style="background-color: white; color: black;">500.000đ</button></a>
+        <a href="#"><button class="box" style="background-color: white; color: black;">1.000.000đ</button></a>
+    </article>
+    <article class="l_box">
+        <div class="title">Game Trên Steam</div>
+        <div class="d_title">Những trò chơi được đánh giá tốt, nội dung hấp dẫn thu hút đang chờ bạn.</div>
+        <div class="s_box">
+            <div class="img"><img src="img/Random_Code_Steam.png" alt="Random_Code_Steam"></div>
+            <div class="name"><a href="Loading.html">Random Code Steam</a></div>
+            <div class="price">10.000đ</div>
+            <div class="sale">20.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/account_BF4.png" alt="account_BF4"></div>
+            <div class="name"><a href="Loading.html">Tài khoản Battlefield 4 (Origin)</a></div>
+            <div class="price">79.000đ</div>
+            <div class="sale">500.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/the_oq.jpg" alt="the_oq"></div>
+            <div class="name"><a href="Loading.html">The Office Quest</a></div>
+            <div class="price">34.000đ</div>
+            <div class="sale">138.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/fifa_box.jpg" alt="fifa_box"></div>
+            <div class="name"><a href="Loading.html">EA SPORTS™ FIFA 21 Champions</a></div>
+            <div class="price">1.750.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="l_box">
+        <div class="s_box" >
+            <div class="img"><img src="img/devil_may_cry.jpg" alt="devil_may_cry"></div>
+            <div class="name"><a href="Loading.html">Devil May Cry 5 - 1000000 Red Orbs</a></div>
+            <div class="price">273.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/wallpaper_engine.jpg" alt="wallpaper_engine"></div>
+            <div class="name"><a href="Loading.html">Wallpaper Engine</a></div>
+            <div class="price">69.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/hero_siege.jpg" alt="hero_siege"></div>
+            <div class="name"><a href="Loading.html">Hero Siege</a></div>
+            <div class="price">79.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/ACO_gold_edition.jpg" alt="ACO_gold_edition"></div>
+            <div class="name"><a href="Loading.html">Assassin's Creed® Origins</a></div>
+            <div class="price">1.405.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="l_box">
+        <div class="title">Ứng dụng tiện lợi</div>
+        <div class="d_title">Cung cấp Premium cho các ứng dụng, các ứng dụng bản quyền.</div>
+        <div class="s_box">
+            <div class="img"><img src="img/NETFLIX_box.png" alt="Netflix"></div>
+            <div class="name"><a href="Page_Netflix_Premium.html">Tài khoản Netflix Premium for 1 User</a></div>
+            <div class="price">79.000đ</div>
+            <div class="sale">260.000đ</div>
+            <a class="buy" href="Page_Netflix_Premium.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/YOUTUBE_NO_ADS_1_THANG.png" alt="YOUTUBE_NO_ADS_1_THANG"></div>
+            <div class="name"><a href="Page_Youtube_Premium.html">Gia hạn Youtube Premium</a></div>
+            <div class="price">29.000đ</div>
+            <div class="sale">280.000đ</div>
+            <a class="buy" href="Page_Youtube_Premium.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Windows_10_Professional.png" alt="Windows_10_Professional"></div>
+            <div class="name"><a href="Loading.html">Windows 10 Professional CD Key</a></div>
+            <div class="price">390.000đ</div>
+            <div class="sale">400.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/devil_may_cry.jpg" alt="devil_may_cry"></div>
+            <div class="name"><a href="Loading.html">Devil May Cry</a></div>
+            <div class="price">399.000đ</div>
+            <div class="sale">260.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="l_box">
+        <div class="s_box" >
+            <div class="img"><img src="img/discord_box_2.png" alt="discord_box_2"></div>
+            <div class="name"><a href="Page_Discord_Nitro.html">Discord Nitro 3 tháng</a></div>
+            <div class="price">149.000đ</div>
+            <div class="sale">690.000đ</div>
+            <a class="buy" href="Page_Discord_Nitro.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Canvas_1_thang.png" alt="Canvas_1_thang"></div>
+            <div class="name"><a href="Loading.html">Tài khoản Canva 1 tháng</a></div>
+            <div class="price">25.000đ</div>
+            <div class="sale">150.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Duolingo.png" alt="Duolingo"></div>
+            <div class="name"><a href="Loading.html">Tài khoản học ngoại ngữ Duolingo</a></div>
+            <div class="price">190.000đ</div>
+            <div class="sale">1.850.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Grammarly_Premium_7_ngay.png" alt="Adobe"></div>
+            <div class="name"><a href="Page_Gramarly.html">Tài khoản Grammarly Premium</a></div>
+            <div class="price">30.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Page_Gramarly.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="l_box">
+        <div class="title">Code Wallet</div>
+        <div class="d_title">Code Wallet là một sản phẩm của Steam.</div>
+        <div class="s_box">
+            <div class="img"><img src="img/STEAM_120_HKD.png" alt="STEAM_120_HKD"></div>
+            <div class="name"><a href="Loading.html">Steam Wallet Code 40 HKD</a></div>
+            <div class="price">128.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/STEAM_80_HKD.png" alt="STEAM_80_HKD"></div>
+            <div class="name"><a href="Loading.html">Steam Wallet Code 80 HKD</a></div>
+            <div class="price">256.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/STEAM_100_TWD.png" alt="STEAM_100_TWD"></div>
+            <div class="name"><a href="Loading.html">Steam Wallet Code 100 TWD</a></div>
+            <div class="price">93.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/STEAM_50_HKD.png" alt="STEAM_50_HKD"></div>
+            <div class="name"><a href="Loading.html">Steam Wallet Code 50 HKD</a></div>
+            <div class="price">162.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="l_box">
+        <div class="s_box" >
+            <div class="img"><img src="img/STEAM_100_HKD.png" alt="STEAM_100_HKD"></div>
+            <div class="name"><a href="Loading.html">Steam Wallet Code 100 HKD</a></div>
+            <div class="price">320.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/STEAM_100_TWD.png" alt="STEAM_100_TWD"></div>
+            <div class="name"><a href="Loading.html">Steam Wallet Code 150 TWD</a></div>
+            <div class="price">29.000đ</div>
+            <div class="sale">550.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/STEAM_120r_HKD.png" alt="STEAM_120r_HKD"></div>
+            <div class="name"><a href="Loading.html">Steam Wallet Code 120 HKD</a></div>
+            <div class="price">387.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/STEAM_200_TWD.png" alt="STEAM_200_TWD"></div>
+            <div class="name"><a href="Loading.html">Steam Wallet Code 200 TWD</a></div>
+            <div class="price">183.000đ</div>
+            <div class="sale">0đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="l_box">
+        <div class="title">Data điện thoại</div>
+        <div class="d_title">Data điện thoại giúp kết nối mạng đến mọi nơi.</div>
+        <div class="s_box">
+            <div class="img"><img src="img/MobiFone 5GB.png" alt="MobiFone 5GB"></div>
+            <div class="name"><a href="Loading.html">Gói nạp Data MobiFone 5GB</a></div>
+            <div class="price">48.000đ</div>
+            <div class="sale">56.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Viettel 15GB.png" alt="Viettel 15GB"></div>
+            <div class="name"><a href="Loading.html">Gói nạp Data Viettel 15GB</a></div>
+            <div class="price">170.000đ</div>
+            <div class="sale">200.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Viettel 5GB.png" alt="Viettel 5GB"></div>
+            <div class="name"><a href="Loading.html">Gói nạp Data Viettel 5GB</a></div>
+            <div class="price">75.000đ</div>
+            <div class="sale">90.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Viettel 3GB.png" alt="Viettel 3GB"></div>
+            <div class="name"><a href="Loading.html">Gói nạp Data Viettel 3GB</a></div>
+            <div class="price">59.500đ</div>
+            <div class="sale">70.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <article class="l_box">
+        <div class="s_box" >
+            <div class="img"><img src="img/Viettel 300MB.png" alt="Viettel 300MB"></div>
+            <div class="name"><a href="Loading.html">Gói nạp Data 300MB Viettel</a></div>
+            <div class="price">8.500đ</div>
+            <div class="sale">10.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/MobiFone 250MB.png" alt="MobiFone 250MB"></div>
+            <div class="name"><a href="Loading.html">Gói nạp Data MobiFone 250MB</a></div>
+            <div class="price">4.500đ</div>
+            <div class="sale">5.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/MobiFone 1GB.png" alt="MobiFone 1GB"></div>
+            <div class="name"><a href="Loading.html">Gói nạp Data MobiFone 1GB</a></div>
+            <div class="price">8.500đ</div>
+            <div class="sale">10.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="s_box">
+            <div class="img"><img src="img/Vinaphone.png" alt="Vinaphone 1GB"></div>
+            <div class="name"><a href="Loading.html">Gói nạp Data Vinaphone 1GB</a></div>
+            <div class="price">19.000đ</div>
+            <div class="sale">20.000.000đ</div>
+            <a class="buy" href="Loading.html"><button>Mua Ngay</button></a>
+            <button class="add-cart">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </article>
+    <hr>
+    <article class="bg_foot">
+        <img src="img/sing.png" alt="">
+        <div class="title">Bạn chưa có tài khoản?</div>
+        <div class="mieu_ta">Hãy tạo ngay một tài khoản để sử dụng đầy đủ các tính năng, tích lũy ưu đãi khi thanh toán các sản phẩm và tham gia vào chương trình Giới thiệu bạn bè nhận hoa hồng vĩnh viễn tại Shop.</div>
+        <a href="Register.html"><button>Đăng Ký Ngay</button></a>
+        <div class="or">Hoặc bạn đã có tài khoản?<a href="Login.html">Đăng Nhập</a></div>
+    </article>  
+    <article class="thanh_toan">
+        <div class="pay_card">
+            <a href=""><img src="img/MoMo_logo.jpg" width="30px" alt=""></a>
+            <a href=""><img src="img/vnpay_logo.png" width="30px" alt=""></a>
+            <a href=""><img src="img/visa_logo.png" width="30px"alt=""></a>
+            <a href=""><img src="img/mastercard_logo.png"width="30px" alt=""></a>
+        </div>
+        <a class="or" href="#">Và nhiều hình thức thanh toán khác</a>            
+        <div class="MXH">
+            <a href=""><img src="img/facebook_logo.png" alt="" width="50px"></a>
+            <a href=""><img src="img/youtube_logo.png" alt="" width="50px"></a>
+            <a href=""><img src="img/Instagram_logo_2016.png" alt="" width="50px"></a>
+        </div>
+    </article> 
+    <hr>
+    <footer>
+        <div class="gioi_thieu">
+            <b>Giới Thiệu</b><br><br>
+            <a href="Loading.html">Game bản quyền là gì ?</a><br>
+            <a href="introduce.html">Giới thiệu về shop</a><br>
+            <a href="Loading.html">Điều khoản dịch vụ</a><br>
+            <a href="Loading.html">Chính sách bảo mật</a>
+        </div>
+        <div class="account">
+            <b>Tài Khoản</b> <br><br>
+            <a href="Login.html">Đăng nhập</a><br>
+            <a href="Register.html">Đăng ký</a>
+        </div>
+        <div class="lien_he">
+            <b>Liên Hệ</b> <br> <br>
+            Hotline chăm sóc khách hàng: 0937410557 (Tào Thiện Nhân)<br>
+            (Các ngày trong tuần từ 8h đến 24h) <br> 
+            Email liên hệ: Nhanttpc02840@fpt.edu.vn <br>
+            Địa chỉ: 288 Đường Nguyễn Văn Linh, Hưng Lợi, Ninh Kiều, Cần Thơ             
+        </div>
+    </footer>
+</body>
+</html>
